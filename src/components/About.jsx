@@ -83,7 +83,7 @@ const AboutSection = () => {
           <p className="about-detail-info">Villeurbanne, France</p>
         </div>
         <div className="about-detail-main">
-          <p className="about-detail">Hoby</p>
+          <p className="about-detail">loisirs</p>
           <p className="about-detail-info">Football</p>
         </div>
       </section>

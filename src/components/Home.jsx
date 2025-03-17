@@ -41,9 +41,9 @@ const Home = () => {
   //Text
   const firstTexts = ["Data engineer", "Developer", "Developer"];
   const secondTexts = [
-    "Data engineer",
     "Web Developer",
-    "Full Stack Developer",
+    "Data engineer",
+    "php Developer",
   ];
   const intervalTime = 600;
 
@@ -156,18 +156,17 @@ const Home = () => {
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:hello@biogi.com" className="profile-media-icons">
-              <img src={EmailSvg} alt="email-svg" />
-            </Link>
-            <Link to="https://www.behance.net" className="profile-media-icons">
-              <img src={BehanceSvg} alt="behance-svg" />
-            </Link>
-            <Link to="https://dribbble.com" className="profile-media-icons">
-              <img src={DribleSvg} alt="drribale-svg" />
-            </Link>
-            <Link to="https://medium.com" className="profile-media-icons">
-              <img src={MediumSvg} alt="medium-svg" />
-            </Link>
+          <div className="profile-media-container" style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+  <Link to="mailto:cheikhabamba99@gmail.com" className="profile-media-icons">
+    <img style={{ width: '30px' }} src={EmailSvg} alt="email-svg" />
+  </Link>
+  <Link to="https://www.linkedin.com/in/bamba-niang/" className="profile-media-icons">
+    <img style={{ width: '30px' }} src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin-svg" />
+  </Link>
+  <Link to="https://github.com/ghost04k" className="profile-media-icons">
+    <img style={{ width: '30px' }} src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-svg" />
+  </Link>
+</div>
           </div>
         </div>
         <div className="menu-list-main">
@@ -317,12 +316,10 @@ const Home = () => {
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-              Ingénieur en Big Data et Développement Web & Mobile, 
-              EPSI Lyon (Master Big Data, fin d’études en août 2025).
-              Plus de 3 ans d’expérience en data engineering et développement full-stack
-              (SNCF, KPA6T). Expertise en BI, Big Data, Power BI, DAX, Talend, Scala et
-              modélisation prédictive. Passionné par la création de solutions innovantes et performantes.
-              </p>
+              Ingénieur en Développement Web, Mobile et Data – EPSI Lyon (Master EISI, fin prévue en août 2025).
+Fort de plus de 3 ans d’expérience en développement full-stack et data engineering (SNCF, KPA6T,NIIT), je conçois et optimise des applications web et mobiles tout en exploitant la puissance des données pour des analyses stratégiques.
+Expert en Business Intelligence (BI), Big Data, Power BI (DAX, Power Query), Talend, Scala, et modélisation prédictive, je développe des solutions performantes et évolutives adaptées aux besoins des entreprises.
+Passionné par la création d’applications innovantes et l’analyse avancée des données, j’allie développement, intelligence décisionnelle et optimisation des performances pour répondre aux défis technologiques d’aujourd’hui.</p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
                   <Link className="btn-hover btn-hover2" to="#">
