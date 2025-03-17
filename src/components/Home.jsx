@@ -316,10 +316,7 @@ const Home = () => {
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-              Ingénieur en Développement Web, Mobile et Data – EPSI Lyon (Master EISI, fin prévue en août 2025).
-Fort de plus de 3 ans d’expérience en développement full-stack et data engineering (SNCF, KPA6T,NIIT), je conçois et optimise des applications web et mobiles tout en exploitant la puissance des données pour des analyses stratégiques.
-Expert en Business Intelligence (BI), Big Data, Power BI (DAX, Power Query), Talend, Scala, et modélisation prédictive, je développe des solutions performantes et évolutives adaptées aux besoins des entreprises.
-Passionné par la création d’applications innovantes et l’analyse avancée des données, j’allie développement, intelligence décisionnelle et optimisation des performances pour répondre aux défis technologiques d’aujourd’hui.</p>
+              Ingénieur en Développement Web, Mobile et Data – EPSI Lyon (Master EISI, fin prévue en août 2025). Avec plus de 3 ans d’expérience en développement full-stack et data engineering (SNCF, KPA6T), je conçois et optimise des applications en exploitant la puissance des données pour des analyses stratégiques. Expert en BI, Big Data, Power BI, Talend, Scala et modélisation prédictive, je développe des solutions innovantes et évolutives adaptées aux besoins des entreprises.</p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
                   <Link className="btn-hover btn-hover2" to="#">
